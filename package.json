@@ -1,7 +1,6 @@
 {
   "name": "@vzrenggamani/eslint-config",
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
-  "version": "1.0.6",
+  "version": "1.0.0",
   "description": "Private ESLint config ",
   "main": "index.js",
   "repository": "https://github.com/vzrenggamani/eslint-config",
