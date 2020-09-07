@@ -1,0 +1,20 @@
+{
+  "name": "@vzreggamani/eslint-config",
+  "version": "1.0.6",
+  "description": "Private ESLint config ",
+  "main": "index.js",
+  "repository": "https://github.com/vzrenggamani/eslint-config-vzrenggamani",
+  "author": "Rengga Prakoso Nugroho",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.8.1",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx": "^0.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-react-hooks": "^4.1.0",
+    "prettier": "^2.1.1"
+  }
+}
