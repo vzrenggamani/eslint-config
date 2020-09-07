@@ -1,4 +1,5 @@
 module.exports = {
+  root: true,
   env: {
     es6: true,
     node: true,
@@ -11,12 +12,9 @@ module.exports = {
     'airbnb',
     'eslint:recommended',
     'plugin:import/errors',
-    'plugin:react/recommended',
     'plugin:jsx-a11y/recommended',
     'plugin:prettier/recommended',
-    'prettier/react',
   ],
-  plugins: ['react-hooks'],
   rules: {
     'import/extensions': 'off',
     'import/no-dynamic-require': 'off',
