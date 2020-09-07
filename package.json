@@ -1,10 +1,15 @@
 {
   "name": "@vzrenggamani/eslint-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Private ESLint config ",
   "main": "index.js",
   "repository": "https://github.com/vzrenggamani/eslint-config",
   "author": "vzrenggamani",
+  "scripts": {
+    "lint": "eslint **/**.js",
+    "lint:fix": "eslint **/**.js --fix",
+    "publish": "npm publish --access public"
+  },
   "license": "MIT",
   "peerDependencies": {
     "eslint": "^7.8.1",
@@ -12,9 +17,8 @@
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-jsx": "^0.1.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
     "eslint-plugin-prettier": "^3.1.4",
-    "eslint-plugin-react": "^7.20.6",
-    "eslint-plugin-react-hooks": "^4.1.0",
     "prettier": "^2.1.1"
   },
   "devDependencies": {
@@ -23,9 +27,8 @@
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-jsx": "^0.1.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
     "eslint-plugin-prettier": "^3.1.4",
-    "eslint-plugin-react": "^7.20.6",
-    "eslint-plugin-react-hooks": "^4.1.0",
     "prettier": "^2.1.1"
   }
 }
