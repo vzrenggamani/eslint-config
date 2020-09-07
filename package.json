@@ -1,10 +1,11 @@
 {
-  "name": "@vzreggamani/eslint-config",
+  "name": "@vzrenggamani/eslint-config",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "version": "1.0.6",
   "description": "Private ESLint config ",
   "main": "index.js",
-  "repository": "https://github.com/vzrenggamani/eslint-config-vzrenggamani",
-  "author": "Rengga Prakoso Nugroho",
+  "repository": "https://github.com/vzrenggamani/eslint-config",
+  "author": "vzrenggamani",
   "license": "MIT",
   "devDependencies": {
     "eslint": "^7.8.1",
