@@ -1,6 +1,6 @@
 {
   "name": "@vzrenggamani/eslint-config",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Private ESLint config ",
   "main": "index.js",
   "repository": "https://github.com/vzrenggamani/eslint-config",
@@ -11,17 +11,7 @@
     "publish": "npm publish --access public"
   },
   "license": "MIT",
-  "peerDependencies": {
-    "eslint": "^7.8.1",
-    "eslint-config-airbnb": "^18.2.0",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-import": "^2.22.0",
-    "eslint-plugin-jsx": "^0.1.0",
-    "eslint-plugin-jsx-a11y": "^6.3.1",
-    "eslint-plugin-prettier": "^3.1.4",
-    "prettier": "^2.1.1"
-  },
-  "devDependencies": {
+  "dependencies": {
     "eslint": "^7.8.1",
     "eslint-config-airbnb": "^18.2.0",
     "eslint-config-prettier": "^6.11.0",
