@@ -1,6 +1,6 @@
 {
   "name": "@vzrenggamani/eslint-config",
-  "version": "1.0.3",
+  "version": "0.1.0-rc",
   "description": "Private ESLint config ",
   "main": "index.js",
   "repository": "https://github.com/vzrenggamani/eslint-config",
@@ -8,7 +8,7 @@
   "scripts": {
     "lint": "eslint **/**.js",
     "lint:fix": "eslint **/**.js --fix",
-    "publish": "npm publish --access public"
+    "publish:npm": "npm publish --access public"
   },
   "license": "MIT",
   "dependencies": {
