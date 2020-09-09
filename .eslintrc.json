@@ -1,0 +1,50 @@
+{
+  "root": true,
+  "parserOptions": {
+    "ecmaVersion": 2020
+  },
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "import/errors",
+    "plugin:prettier",
+    "plugin:prettier/recommended",
+    "prettier/babel",
+    "prettier/vue",
+    "prettier/standard",
+    "google"
+  ],
+  "plugins": [
+    "prettier",
+    "import",
+    "node"
+  ],
+  "rules": {
+    "no-console": "off",
+    "no-tabs": "error",
+    "max-len": ["error", {"code": 100, "ignoreUrls": true}],
+    "lines-around-comment": [
+      "error",
+      {
+        "beforeBlockComment": true,
+        "afterBlockComment": true,
+        "beforeLineComment": true,
+        "afterLineComment": true,
+        "allowBlockStart": true,
+        "allowBlockEnd": true,
+        "allowObjectStart": true,
+        "allowObjectEnd": true,
+        "allowArrayStart": true,
+        "allowArrayEnd": true
+      }
+    ],
+    "curly": ["error", "all"],
+    "no-mixed-operators": "error",
+    "quotes": ["error", "backtick"],
+    "prettier/prettier": "error"
+  }
+}

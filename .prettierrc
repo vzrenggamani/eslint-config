@@ -6,6 +6,6 @@
     "printWidth": 100,
     "parser": "babel",
     "semi": true,
-    "trailingComma": "all",
+    "trailingComma": "es5",
     "arrowParens": "always"
 }
