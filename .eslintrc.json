@@ -10,19 +10,15 @@
   },
   "extends": [
     "eslint:recommended",
-    "import/errors",
-    "plugin:prettier",
     "plugin:prettier/recommended",
-    "prettier/babel",
-    "prettier/vue",
+    "prettier/flowtype",
+    "prettier/react",
     "prettier/standard",
+    "prettier/vue",
+    "prettier/babel",
     "google"
   ],
-  "plugins": [
-    "prettier",
-    "import",
-    "node"
-  ],
+  "plugins": ["prettier"],
   "rules": {
     "no-console": "off",
     "no-tabs": "error",
@@ -44,7 +40,6 @@
     ],
     "curly": ["error", "all"],
     "no-mixed-operators": "error",
-    "quotes": ["error", "backtick"],
     "prettier/prettier": "error"
   }
 }
