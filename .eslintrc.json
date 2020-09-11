@@ -9,19 +9,18 @@
     "node": true
   },
   "extends": [
-    "eslint:recommended",
     "plugin:prettier/recommended",
     "plugin:json/recommended",
+    "prettier",
     "prettier/flowtype",
     "prettier/react",
     "prettier/standard",
     "prettier/vue",
-    "prettier/babel",
-    "google"
+    "prettier/babel"
   ],
   "plugins": ["prettier", "json"],
   "rules": {
-    "no-console": "off",
+    "no-console": "warn",
     "no-tabs": "error",
     "max-len": ["error", { "code": 100, "ignoreUrls": true }],
     "lines-around-comment": [
@@ -40,7 +39,7 @@
       }
     ],
     "curly": ["error", "all"],
-    "no-mixed-operators": "error",
+    "no-mixed-operators": "warn",
     "prettier/prettier": "error"
   },
   "ignorePatterns": ["gists/*", "vendor/*", "node_modules/**"]
